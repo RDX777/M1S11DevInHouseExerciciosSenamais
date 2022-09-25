@@ -1,8 +1,11 @@
+import { themebase } from "./themeBase";
+
 export const themeLight = {
+  ...themebase,
   colors: {
-    backgourdPrimary: "#EFF1F3",
-    backgourdSecondary: "#EEF1FF",
-    primary: "#010000",
-    secondary: "#011627"
-  }
-}
+    backgroundPrimary: "#dddd",
+    backgroundSecondary: "#bebebe",
+    primary: "#73628a",
+    secondary: "#ffbcb5",
+  },
+};

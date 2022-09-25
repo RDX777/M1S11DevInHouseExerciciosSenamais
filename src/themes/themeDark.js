@@ -1,8 +1,11 @@
+import { themebase } from "./themeBase";
+
 export const themeDark = {
+  ...themebase,
   colors: {
-    backgourdPrimary: "#010000",
-    backgourdSecondary: "#011627",
-    primary: "#EFF1F3 ",
-    secondary: "#EEF1FF"
-  }
-} 
+    backgroundPrimary: "#0D1821",
+    backgroundSecondary: "#312f2f",
+    primary: "#FFF",
+    secondary: "#183642",
+  },
+};

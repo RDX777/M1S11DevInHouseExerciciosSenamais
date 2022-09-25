@@ -1,3 +1,3 @@
-export { GlobalStyle } from "./GlobalStyle.jsx"
-export { themeLight } from "./themeLight"
-export { themeDark } from "./themeDark.js"
+export { GlobalStyle } from "./GlobalStyle.jsx";
+export { themeDark } from "./themeDark";
+export { themeLight } from "./themeLight";
