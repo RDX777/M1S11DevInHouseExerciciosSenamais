@@ -5,9 +5,7 @@ function App() {
 
   return (
     <CustomThemeProvider>
-      <AppLayout>
-        <p>teste</p>
-      </AppLayout>
+      <AppLayout />
     </CustomThemeProvider>
   )
 }
