@@ -8,7 +8,6 @@ export const Profile = ({ profile }) => {
 
     <Container>
       <p>{profile.nome}</p>
-      <p>{profile.descricao}</p>
       <button onClick={() => handleFollow(profile.id)}>{profile.seguindo ? "Seguindo" : "Seguir"}</button>
     </Container>
 
